@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link href="./output.css" rel="stylesheet">
+  </head>
+  <body class="bg-gradient-to-r from-cyan-500 to-blue-500 text-center">
+    
+    <main>
+        <h1 class="text-5xl mb-10 mt-3 text-white">Tic Tac Toe</h1>
+        <div class="container flex justify-center items-center h-3/4">
+            <div class="game grid grid-cols-3 gap-6">
+                <!-- Tic Tac Toe grid -->
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+                <button class="box h-24 w-24 rounded-lg shadow-lg text-6xl text-red-600 bg-white"></button>
+            </div>
+           
+        </div>
+        <br>
+        <br>
+        <div class="msg-container hide flex justify-center">
+          <button id="reset-btn" class="py-4 px-6 text-lg bg-blue-900 text-white rounded-lg">Reset Game</button>
+          <p id="msg" class="text-yellow-200 text-5xl"></p>
+          <button id="new-btn" class="py-4 px-6 text-lg bg-blue-900 text-white rounded-lg mx-20">New Game</button>
+      </div>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
